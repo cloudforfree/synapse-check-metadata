@@ -1,0 +1,60 @@
+{
+	"name": "goodEducationTargetSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Education"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Content_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Content",
+				"type": "nvarchar"
+			},
+			{
+				"name": "YesCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NoCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PercentYes",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PercentNo",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "load_timestamp",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "load_date",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "Target",
+			"table": "goodEducation"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "goodEducationStagingSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Education"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Content",
+				"type": "nvarchar"
+			},
+			{
+				"name": "YesCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "NoCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PercentYes",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "PercentNo",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "Source",
+			"table": "goodEducation"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
