@@ -1,9 +1,9 @@
 {
-	"name": "synapse-sk-workspace-WorkspaceDefaultSqlServer",
+	"name": "synapse-cloudforfree-workspace-WorkspaceDefaultSqlServer",
 	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
 		"typeProperties": {
-			"connectionString": "Data Source=tcp:synapse-sk-workspace.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+			"connectionString": "Data Source=tcp:synapse-cloudforfree-workspace.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
 		},
 		"parameters": {
 			"DBName": {

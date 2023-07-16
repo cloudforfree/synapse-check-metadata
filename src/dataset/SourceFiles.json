@@ -2,7 +2,7 @@
 	"name": "SourceFiles",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "synapse-sk-workspace-WorkspaceDefaultStorage",
+			"referenceName": "synapse-cloudforfree-workspace-WorkspaceDefaultStorage",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {

@@ -1,5 +1,5 @@
 {
-	"name": "synapse-sk-workspace-WorkspaceDefaultStorage",
+	"name": "synapse-cloudforfree-workspace-WorkspaceDefaultStorage",
 	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
 		"typeProperties": {
