@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "synapse-cloudforfree-workspace"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"synapse-cloudforfree-workspace-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:synapse-cloudforfree-workspace.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"synapse-cloudforfree-workspace-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://storageaccountsk001.dfs.core.windows.net"
+		}
+	}
+}
