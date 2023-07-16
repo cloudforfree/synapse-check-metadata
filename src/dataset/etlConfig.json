@@ -1,5 +1,5 @@
 {
-	"name": "ETLConfig",
+	"name": "etlConfig",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
