@@ -13,7 +13,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "/source/*",
+				"folderPath": "source/*",
 				"fileSystem": "data"
 			},
 			"columnDelimiter": ",",
