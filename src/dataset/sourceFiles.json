@@ -5,6 +5,9 @@
 			"referenceName": "synapse-cloudforfree-workspace-WorkspaceDefaultStorage",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Education"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
